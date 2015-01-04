@@ -24,12 +24,12 @@ import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.Handler;
-import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
 import android.provider.Settings;
 
 import android.util.Log;
@@ -92,7 +92,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mHomeDoubleTapAction;
     private ListPreference mMenuPressAction;
     private ListPreference mMenuLongPressAction;
-    private CheckBoxPreference mDisableNavigationKeys;
+    private SwitchPreference mDisableNavigationKeys;
     private CheckBoxPreference mHomeAnswerCall;
 
     private PreferenceCategory mNavigationPreferencesCat;
@@ -134,7 +134,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         mHandler = new Handler();
 
         // Force Navigation bar related options
-        mDisableNavigationKeys = (CheckBoxPreference) findPreference(DISABLE_NAV_KEYS);
+        mDisableNavigationKeys = (SwitchPreference) findPreference(DISABLE_NAV_KEYS);
 
         // Only visible on devices that does not have a navigation bar already,
         // and don't even try unless the existing keys can be disabled

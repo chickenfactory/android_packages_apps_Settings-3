@@ -51,6 +51,10 @@
     <string name="button_wake_title">Wake up</string>
     <string name="home_wake_summary">Pressing the home button will wake your device</string>
 
+    <!-- Home Button Answer Call -->
+    <string name="home_answer_call_title">Answer call</string>
+    <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
+
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>

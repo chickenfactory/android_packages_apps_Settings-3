@@ -93,7 +93,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mMenuPressAction;
     private ListPreference mMenuLongPressAction;
     private SwitchPreference mDisableNavigationKeys;
-    private CheckBoxPreference mHomeAnswerCall;
+    private SwitchPreference mHomeAnswerCall;
 
     private PreferenceCategory mNavigationPreferencesCat;
 
@@ -125,11 +125,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final PreferenceCategory menuCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
 
-        // Power button ends calls.
-        mPowerEndCall = (CheckBoxPreference) findPreference(KEY_POWER_END_CALL);
-
         // Home button answers calls.
-        mHomeAnswerCall = (CheckBoxPreference) findPreference(KEY_HOME_ANSWER_CALL);
+        mHomeAnswerCall = (SwitchPreference) findPreference(KEY_HOME_ANSWER_CALL);
 
         mHandler = new Handler();
 

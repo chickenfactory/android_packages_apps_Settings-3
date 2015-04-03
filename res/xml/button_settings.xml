@@ -31,7 +31,6 @@
             android:targetPackage="com.cyanogenmod.settings.device"
             android:targetClass="com.cyanogenmod.settings.device.BluetoothInputSettings" />
     </Preference>
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="home_key"

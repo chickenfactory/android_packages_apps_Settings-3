@@ -230,7 +230,7 @@
     <!-- Status bar | Clock -->
     <string name="status_bar_clock">Clock &amp; date</string>
     <string name="status_bar_clock_title">date &amp; time style</string>
-    <string name="status_bar_clock_summary">Configure date &amp; time options</string> 
+    <string name="status_bar_clock_summary">Configure date &amp; time options</string>
     <string name="clock_title_enable">Position</string>
     <string name="clock_enabled">Enabled</string>
     <string name="clock_disabled">Disabled</string>
@@ -387,5 +387,19 @@
     <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
     <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
     <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+
+    <!-- Status bar - Battery -->
+    <string name="battery_style_title">Battery status style</string>
+    <string name="battery_style_icon_portrait">Icon portrait</string>
+    <string name="battery_style_icon_landscape">Icon landscape</string>
+    <string name="battery_style_circle">Circle</string>
+    <string name="battery_style_text">Text</string>
+    <string name="battery_style_hidden">Hidden</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="battery_percentage_title">Battery percentage</string>
+    <string name="battery_percentage_default">Hidden (default)</string>
+    <string name="battery_percentage_text_inside">Inside the icon</string>
+    <string name="battery_percentage_text_next">Next to the icon</string>
 
 </resources>

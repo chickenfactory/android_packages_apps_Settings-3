@@ -182,11 +182,14 @@
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
-    <!--User preferences settings-->
+    <!-- User preferences reset -->
     <string name="personalization">Personalization</string>
     <string name="reset_user_preferences_title">Reset preferences</string>
-    <string name="reset_user_preferences_summary">Restores user interface preferences to default values</string>
-    <string name="reset_user_preferences_dialog">Are you sure you want to reset your preferences?</string>
+    <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
+    <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
+    <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
+    <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
+    <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
 
     <!-- Key backlight -->
     <string name="backlight_timeout_title">Illumination timeout</string>

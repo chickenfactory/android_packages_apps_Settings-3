@@ -55,11 +55,6 @@
   <string name="sunlight_enhancement_title">Sunlight enhancement</string>
   <string name="sunlight_enhancement_summary">Enhance display brightness and readability under bright sunlight</string>
   <string name="partition_info_title">Partition info</string>
-  <string name="battery_status_icon_title">電池残量アイコン</string>
-  <string name="battery_bar">Battery bar</string>
-  <string name="battery_circle">Battery circle</string>
-  <string name="battery_percent">Battery percent</string>
-  <string name="battery_hidden">Battery hidden</string>
   <string name="font_size_sample">サンプル</string>
   <string name="volume_adjust_sound_title">Volume slider sound</string>
   <string name="advanced_reboot_title">Advanced reboot</string>
@@ -122,8 +117,11 @@
   <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
   <string name="personalization">個人設定</string>
   <string name="reset_user_preferences_title">設定のリセット</string>
-  <string name="reset_user_preferences_summary">ユーザーインターフェイスの設定を初期化する</string>
-  <string name="reset_user_preferences_dialog">設定をリセットしてもよろしいですか？</string>
+  <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
+  <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
+  <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
+  <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
+  <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
   <string name="backlight_timeout_title">Illumination timeout</string>
   <string name="backlight_timeout_unlimited">Don\'t turn off</string>
   <string name="backlight_summary_disabled">Disabled</string>
@@ -267,4 +265,14 @@
   <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
   <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
   <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="battery_style_title">Battery status style</string>
+  <string name="battery_style_icon_portrait">Icon portrait</string>
+  <string name="battery_style_icon_landscape">Icon landscape</string>
+  <string name="battery_style_circle">Circle</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Hidden</string>
+  <string name="battery_percentage_title">Battery percentage</string>
+  <string name="battery_percentage_default">Hidden (default)</string>
+  <string name="battery_percentage_text_inside">Inside the icon</string>
+  <string name="battery_percentage_text_next">Next to the icon</string>
 </resources>

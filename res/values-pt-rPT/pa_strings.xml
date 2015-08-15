@@ -55,11 +55,6 @@
   <string name="sunlight_enhancement_title">Melhoramento do ecrã</string>
   <string name="sunlight_enhancement_summary">Aumentar a luminosidade e legibilidade do ecrã sob luz solar brilhante</string>
   <string name="partition_info_title">Informação das partições</string>
-  <string name="battery_status_icon_title">Ícone de estado</string>
-  <string name="battery_bar">Barra</string>
-  <string name="battery_circle">Círculo</string>
-  <string name="battery_percent">Percentagem</string>
-  <string name="battery_hidden">Oculto</string>
   <string name="font_size_sample">Ex.</string>
   <string name="volume_adjust_sound_title">Som de ajuste do volume</string>
   <string name="advanced_reboot_title">Reinicio avançado</string>
@@ -122,8 +117,11 @@
   <string name="unlock_scramble_pin_layout_summary">Apresentar aleatoriamente a disposição do teclado numérico , quando desbloquear com PIN</string>
   <string name="personalization">Personalização</string>
   <string name="reset_user_preferences_title">Restaurar as preferências</string>
-  <string name="reset_user_preferences_summary">Restaura as preferências de interface do utilizador para valores padrão</string>
-  <string name="reset_user_preferences_dialog">Tem a certeza que quer restaurar as suas preferências?</string>
+  <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
+  <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
+  <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
+  <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
+  <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
   <string name="backlight_timeout_title">Tempo limite de iluminação</string>
   <string name="backlight_timeout_unlimited">Não desligar</string>
   <string name="backlight_summary_disabled">Desativado</string>
@@ -267,4 +265,14 @@
   <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
   <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
   <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="battery_style_title">Battery status style</string>
+  <string name="battery_style_icon_portrait">Icon portrait</string>
+  <string name="battery_style_icon_landscape">Icon landscape</string>
+  <string name="battery_style_circle">Circle</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Hidden</string>
+  <string name="battery_percentage_title">Battery percentage</string>
+  <string name="battery_percentage_default">Hidden (default)</string>
+  <string name="battery_percentage_text_inside">Inside the icon</string>
+  <string name="battery_percentage_text_next">Next to the icon</string>
 </resources>

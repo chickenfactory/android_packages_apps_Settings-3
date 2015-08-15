@@ -55,11 +55,6 @@
   <string name="sunlight_enhancement_title">陽光增強</string>
   <string name="sunlight_enhancement_summary">在強光下提高顯示亮度和可讀性</string>
   <string name="partition_info_title">儲存空間分區資訊</string>
-  <string name="battery_status_icon_title">狀態圖示</string>
-  <string name="battery_bar">電量列</string>
-  <string name="battery_circle">電量圈</string>
-  <string name="battery_percent">電池 %</string>
-  <string name="battery_hidden">隱藏的電池</string>
   <string name="font_size_sample">範例</string>
   <string name="volume_adjust_sound_title">音量滑桿聲音</string>
   <string name="advanced_reboot_title">進階重新啟動</string>
@@ -122,8 +117,11 @@
   <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 布局</string>
   <string name="personalization">個人化</string>
   <string name="reset_user_preferences_title">重置設定</string>
-  <string name="reset_user_preferences_summary">將使用界面設定還原為預設值</string>
-  <string name="reset_user_preferences_dialog">你確定要重置設定？</string>
+  <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
+  <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
+  <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
+  <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
+  <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
   <string name="backlight_timeout_title">照明逾時</string>
   <string name="backlight_timeout_unlimited">不要關閉</string>
   <string name="backlight_summary_disabled">關閉</string>
@@ -267,4 +265,14 @@
   <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
   <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
   <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="battery_style_title">Battery status style</string>
+  <string name="battery_style_icon_portrait">Icon portrait</string>
+  <string name="battery_style_icon_landscape">Icon landscape</string>
+  <string name="battery_style_circle">Circle</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Hidden</string>
+  <string name="battery_percentage_title">Battery percentage</string>
+  <string name="battery_percentage_default">Hidden (default)</string>
+  <string name="battery_percentage_text_inside">Inside the icon</string>
+  <string name="battery_percentage_text_next">Next to the icon</string>
 </resources>

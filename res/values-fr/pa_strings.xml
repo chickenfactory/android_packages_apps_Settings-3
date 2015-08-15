@@ -55,11 +55,6 @@
   <string name="sunlight_enhancement_title">Amélioration en plein soleil</string>
   <string name="sunlight_enhancement_summary">Améliorer la luminosité de l\'affichage et la lisibilité en plein soleil</string>
   <string name="partition_info_title">Informations sur la partition</string>
-  <string name="battery_status_icon_title">Icône de la batterie</string>
-  <string name="battery_bar">Pile</string>
-  <string name="battery_circle">Cercle</string>
-  <string name="battery_percent">Pourcentage de la batterie</string>
-  <string name="battery_hidden">Masquée</string>
   <string name="font_size_sample">Échantillon</string>
   <string name="volume_adjust_sound_title">Son des touches de volumes</string>
   <string name="advanced_reboot_title">Redémarrage avancé</string>
@@ -122,8 +117,11 @@
   <string name="unlock_scramble_pin_layout_summary">Disposition du schéma lorsque l\'appareil est déverrouillé</string>
   <string name="personalization">Personnalisation</string>
   <string name="reset_user_preferences_title">Réinitialiser les préférences</string>
-  <string name="reset_user_preferences_summary">Réinitialiser les préférences de l\'interface utilisateur aux valeurs par défaut</string>
-  <string name="reset_user_preferences_dialog">Êtes-vous sûr de vouloir réinitialiser vos préférences ?</string>
+  <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
+  <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
+  <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
+  <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
+  <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
   <string name="backlight_timeout_title">Temporisation de l\'éclairage</string>
   <string name="backlight_timeout_unlimited">Ne pas éteindre</string>
   <string name="backlight_summary_disabled">Désactivé</string>
@@ -221,50 +219,60 @@
   <string name="reset_qs_tiles_dialog_msg">Toutes vos tuiles d\'accès rapides seront repositionnées vers leurs emplacements par défaut.</string>
   <string name="reset_qs_tiles_dialog_yes">Réinitialiser maintenant</string>
   <string name="reset_qs_tiles_dialog_no">Annuler</string>
-  <string name="show_clear_all_recents_button_title">Clear all recents button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
-  <string name="recents_clear_all_location_title">Clear all recents location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="category_calibration">Calibration</string>
-  <string name="color_calibration_title">Color calibration</string>
-  <string name="color_calibration_summary">Calibrate on-screen colors</string>
-  <string name="color_red_title">Red</string>
-  <string name="color_green_title">Green</string>
-  <string name="color_blue_title">Blue</string>
-  <string name="gamma_tuning_title_head">Gamma calibration</string>
-  <string name="gamma_tuning_summary_head">Tweak gamma values</string>
-  <string name="gamma_tuning_control_set_header">Group <xliff:g id="index">%d</xliff:g></string>
-  <string name="screencolor">Screen color</string>
-  <string name="screencolor_summary">Tune screen hue, saturation, contrast or intensity</string>
-  <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readibility and reduce eyestrain</string>
-  <string name="live_display_mode">Display mode</string>
-  <string name="live_display_color_temperature_title">Color temperature</string>
-  <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-  <string name="live_display_day">Day</string>
-  <string name="live_display_night">Night</string>
-  <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-  <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-  <string name="live_display_low_power_title">Reduce power consumption</string>
-  <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-  <string name="live_display_enhance_color_title">Enhance colors</string>
-  <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-  <string name="screencolor">Screen color</string>
-  <string name="screencolor_summary">Tune screen hue, saturation, contrast or intensity</string>
-  <string name="custom_screencolor">Custom screen color</string>
-  <string name="screencolor_save">Save</string>
-  <string name="screencolor_cancel">Cancel</string>
-  <string name="previous_str">Previous</string>
-  <string name="new_str">New</string>
-  <string name="restore_preview">View default picture</string>
-  <string name="selectnewfile_menu">View new picture from Gallery</string>
-  <string name="selectfile_menu">View picture from Gallery</string>
-  <string name="restore_default_str">Reset</string>
-  <string name="hue_str">Hue: <xliff:g id="hue_value">%1$s</xliff:g></string>
-  <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
-  <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
-  <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="show_clear_all_recents_button_title">Fermer toutes les apps récentes</string>
+  <string name="show_clear_all_recents_button_summary">Afficher le bouton pour effacer la liste des apps récentes</string>
+  <string name="recents_clear_all_location_title">Position du bouton</string>
+  <string name="recents_clear_all_location_top_right">En haut à droite</string>
+  <string name="recents_clear_all_location_top_left">En haut à gauche</string>
+  <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
+  <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+  <string name="category_calibration">Étalonnage</string>
+  <string name="color_calibration_title">Étalonnage des couleurs</string>
+  <string name="color_calibration_summary">Calibrer les couleurs de l\'écran</string>
+  <string name="color_red_title">Rouge</string>
+  <string name="color_green_title">Vert</string>
+  <string name="color_blue_title">Bleu</string>
+  <string name="gamma_tuning_title_head">Étalonnage de gamma</string>
+  <string name="gamma_tuning_summary_head">Modifier les valeurs de gamma</string>
+  <string name="gamma_tuning_control_set_header">Groupe <xliff:g id="index">%d</xliff:g></string>
+  <string name="screencolor">Couleur de l\'écran</string>
+  <string name="screencolor_summary">Régler la teinte, la saturation, le contraste ou l\'intensité de l\'écran</string>
+  <string name="live_display_summary">Optimiser votre écran en fonction de l\'heure et de l\'environnement pour améliorer la lisibilité</string>
+  <string name="live_display_mode">Live display</string>
+  <string name="live_display_color_temperature_title">Température des couleurs</string>
+  <string name="live_display_color_temperature_summary">Jour : <xliff:g id="day_temperature">%1$d</xliff:g>K Nuit : <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g>K</string>
+  <string name="live_display_day">Jour</string>
+  <string name="live_display_night">Nuit</string>
+  <string name="live_display_outdoor_mode_title">Mode extérieur automatique</string>
+  <string name="live_display_outdoor_mode_summary">Augmenter la luminosité et la saturation automatiquement en cas d\'exposition en plein soleil</string>
+  <string name="live_display_low_power_title">Réduire la consommation d\'énergie</string>
+  <string name="live_display_low_power_summary">Ajuster l\'affichage pour réduire la consommation sans dégradation</string>
+  <string name="live_display_enhance_color_title">Améliorer les couleurs</string>
+  <string name="live_display_enhance_color_summary">Améliorer l\'éclat de la couleur des tons chair, des paysages et autres images</string>
+  <string name="screencolor">Couleur de l\'écran</string>
+  <string name="screencolor_summary">Régler la teinte, la saturation, le contraste ou l\'intensité de l\'écran</string>
+  <string name="custom_screencolor">Couleur d\'écran personnalisée</string>
+  <string name="screencolor_save">Enregistrer</string>
+  <string name="screencolor_cancel">Annuler</string>
+  <string name="previous_str">Précédent</string>
+  <string name="new_str">Nouveau</string>
+  <string name="restore_preview">Afficher l\'image par défaut</string>
+  <string name="selectnewfile_menu">Afficher la nouvelle photo depuis la galerie</string>
+  <string name="selectfile_menu">Afficher la photo depuis la galerie</string>
+  <string name="restore_default_str">Réinitialiser</string>
+  <string name="hue_str">Teinte : <xliff:g id="hue_value">%1$s</xliff:g></string>
+  <string name="saturation_str">Saturation : <xliff:g id="saturation_value">%1$s</xliff:g></string>
+  <string name="contrast_str">Contraste : <xliff:g id="contrast_value">%1$s</xliff:g></string>
+  <string name="intensity_str">Intensité : <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="battery_style_title">Battery status style</string>
+  <string name="battery_style_icon_portrait">Icon portrait</string>
+  <string name="battery_style_icon_landscape">Icon landscape</string>
+  <string name="battery_style_circle">Circle</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Hidden</string>
+  <string name="battery_percentage_title">Battery percentage</string>
+  <string name="battery_percentage_default">Hidden (default)</string>
+  <string name="battery_percentage_text_inside">Inside the icon</string>
+  <string name="battery_percentage_text_next">Next to the icon</string>
 </resources>

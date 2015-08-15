@@ -55,11 +55,6 @@
   <string name="sunlight_enhancement_title">햇빛 향상</string>
   <string name="sunlight_enhancement_summary">밝은 햇빛 아래에서 화면의 밝기와 가독성을 향상</string>
   <string name="partition_info_title">파티션 정보</string>
-  <string name="battery_status_icon_title">정말로 초기화할까요?</string>
-  <string name="battery_bar">배터리 바</string>
-  <string name="battery_circle">배터리 원형</string>
-  <string name="battery_percent">배터리 퍼센트</string>
-  <string name="battery_hidden">배터리 숨기기</string>
   <string name="font_size_sample">예시</string>
   <string name="volume_adjust_sound_title">볼륨 슬라이더 사운드</string>
   <string name="advanced_reboot_title">재시작 옵션</string>
@@ -122,8 +117,11 @@
   <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
   <string name="personalization">개인화</string>
   <string name="reset_user_preferences_title">설정 초기화</string>
-  <string name="reset_user_preferences_summary">사용자 인터페이스 설정 초기화</string>
-  <string name="reset_user_preferences_dialog">정말로 초기화할까요?</string>
+  <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
+  <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
+  <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
+  <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
+  <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
   <string name="backlight_timeout_title">Illumination timeout</string>
   <string name="backlight_timeout_unlimited">Don\'t turn off</string>
   <string name="backlight_summary_disabled">Disabled</string>
@@ -267,4 +265,14 @@
   <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
   <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
   <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="battery_style_title">Battery status style</string>
+  <string name="battery_style_icon_portrait">Icon portrait</string>
+  <string name="battery_style_icon_landscape">Icon landscape</string>
+  <string name="battery_style_circle">Circle</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Hidden</string>
+  <string name="battery_percentage_title">Battery percentage</string>
+  <string name="battery_percentage_default">Hidden (default)</string>
+  <string name="battery_percentage_text_inside">Inside the icon</string>
+  <string name="battery_percentage_text_next">Next to the icon</string>
 </resources>

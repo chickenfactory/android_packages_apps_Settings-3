@@ -55,11 +55,6 @@
   <string name="sunlight_enhancement_title">阳光增强</string>
   <string name="sunlight_enhancement_summary">在强光下提高显示亮度和可读性</string>
   <string name="partition_info_title">分区信息</string>
-  <string name="battery_status_icon_title">电池图标</string>
-  <string name="battery_bar">电池栏</string>
-  <string name="battery_circle">圆环</string>
-  <string name="battery_percent">百分比</string>
-  <string name="battery_hidden">隐藏电池图标</string>
   <string name="font_size_sample">示例</string>
   <string name="volume_adjust_sound_title">音量滑块声音</string>
   <string name="advanced_reboot_title">高级重启</string>
@@ -122,8 +117,11 @@
   <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
   <string name="personalization">个性化</string>
   <string name="reset_user_preferences_title">重置首选项</string>
-  <string name="reset_user_preferences_summary">重置用户界面首选项至默认</string>
-  <string name="reset_user_preferences_dialog">您确定要重置首选项吗？</string>
+  <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
+  <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
+  <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
+  <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
+  <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
   <string name="backlight_timeout_title">背光超时</string>
   <string name="backlight_timeout_unlimited">不要关闭</string>
   <string name="backlight_summary_disabled">已禁用</string>
@@ -221,50 +219,61 @@
   <string name="reset_qs_tiles_dialog_msg">你所有快速设置面板下的瓷块都将恢复到默认的位置。</string>
   <string name="reset_qs_tiles_dialog_yes">重置</string>
   <string name="reset_qs_tiles_dialog_no">取消</string>
-  <string name="show_clear_all_recents_button_title">Clear all recents button</string>
-  <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
-  <string name="recents_clear_all_location_title">Clear all recents location</string>
-  <string name="recents_clear_all_location_top_right">Top right</string>
-  <string name="recents_clear_all_location_top_left">Top left</string>
-  <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-  <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-  <string name="category_calibration">Calibration</string>
-  <string name="color_calibration_title">Color calibration</string>
-  <string name="color_calibration_summary">Calibrate on-screen colors</string>
-  <string name="color_red_title">Red</string>
-  <string name="color_green_title">Green</string>
-  <string name="color_blue_title">Blue</string>
-  <string name="gamma_tuning_title_head">Gamma calibration</string>
-  <string name="gamma_tuning_summary_head">Tweak gamma values</string>
-  <string name="gamma_tuning_control_set_header">Group <xliff:g id="index">%d</xliff:g></string>
-  <string name="screencolor">Screen color</string>
-  <string name="screencolor_summary">Tune screen hue, saturation, contrast or intensity</string>
-  <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readibility and reduce eyestrain</string>
-  <string name="live_display_mode">Display mode</string>
-  <string name="live_display_color_temperature_title">Color temperature</string>
-  <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-  <string name="live_display_day">Day</string>
-  <string name="live_display_night">Night</string>
-  <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-  <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-  <string name="live_display_low_power_title">Reduce power consumption</string>
-  <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-  <string name="live_display_enhance_color_title">Enhance colors</string>
-  <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-  <string name="screencolor">Screen color</string>
-  <string name="screencolor_summary">Tune screen hue, saturation, contrast or intensity</string>
-  <string name="custom_screencolor">Custom screen color</string>
-  <string name="screencolor_save">Save</string>
-  <string name="screencolor_cancel">Cancel</string>
-  <string name="previous_str">Previous</string>
-  <string name="new_str">New</string>
-  <string name="restore_preview">View default picture</string>
-  <string name="selectnewfile_menu">View new picture from Gallery</string>
-  <string name="selectfile_menu">View picture from Gallery</string>
-  <string name="restore_default_str">Reset</string>
-  <string name="hue_str">Hue: <xliff:g id="hue_value">%1$s</xliff:g></string>
-  <string name="saturation_str">Saturation: <xliff:g id="saturation_value">%1$s</xliff:g></string>
-  <string name="contrast_str">Contrast: <xliff:g id="contrast_value">%1$s</xliff:g></string>
-  <string name="intensity_str">Intensity: <xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="show_clear_all_recents_button_title">清除所有最近任务的按钮</string>
+  <string name="show_clear_all_recents_button_summary">在最近面板显示全部清除按钮</string>
+  <string name="recents_clear_all_location_title">清楚最近所有的位置记录</string>
+  <string name="recents_clear_all_location_top_right">屏幕右上方</string>
+  <string name="recents_clear_all_location_top_left">屏幕左上方</string>
+  <string name="recents_clear_all_location_bottom_right">右下方</string>
+  <string name="recents_clear_all_location_bottom_left">左下方</string>
+  <string name="category_calibration">校准</string>
+  <string name="color_calibration_title">颜色校准</string>
+  <string name="color_calibration_summary">校准屏幕上的颜色</string>
+  <string name="color_red_title">红色</string>
+  <string name="color_green_title">绿色</string>
+  <string name="color_blue_title">蓝色</string>
+  <string name="gamma_tuning_title_head">伽玛校准</string>
+  <string name="gamma_tuning_summary_head">调整伽玛值</string>
+  <string name="gamma_tuning_control_set_header">组 <xliff:g id="index">%d</xliff:g></string>
+  <string name="screencolor">屏幕颜色</string>
+  <string name="screencolor_summary">调整屏幕色调、饱和度、对比度或亮度</string>
+  <string name="live_display_summary">基于时间和环境条件优化您的屏幕，改善可读性，减少眼睛疲劳</string>
+  <string name="live_display_mode">显示模式</string>
+  <string name="live_display_color_temperature_title">色温</string>
+  <string name="live_display_color_temperature_summary">日:<xliff:g id="day_temperature">%1$d </xliff:g> K 
+夜: <xliff:g id="night_temperature">%2$d </xliff:g> K</string>
+  <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d </xliff:g>K</string>
+  <string name="live_display_day">白天</string>
+  <string name="live_display_night">夜晚</string>
+  <string name="live_display_outdoor_mode_title">自动户外模式</string>
+  <string name="live_display_outdoor_mode_summary">在强光下自动增强亮度和饱和度</string>
+  <string name="live_display_low_power_title">降低电量消耗</string>
+  <string name="live_display_low_power_summary">再不降低显示效果的情况下自动调整显示功耗</string>
+  <string name="live_display_enhance_color_title">色彩增强</string>
+  <string name="live_display_enhance_color_summary">优化色彩的色调、 风光及其他图像</string>
+  <string name="screencolor">屏幕颜色</string>
+  <string name="screencolor_summary">调整屏幕色调、饱和度、对比度或亮度</string>
+  <string name="custom_screencolor">自定义屏幕颜色</string>
+  <string name="screencolor_save">保存</string>
+  <string name="screencolor_cancel">取消</string>
+  <string name="previous_str">上一个</string>
+  <string name="new_str">新</string>
+  <string name="restore_preview">查看默认的图片</string>
+  <string name="selectnewfile_menu">查看图库中新的照片</string>
+  <string name="selectfile_menu">从图库中查看照片</string>
+  <string name="restore_default_str">重置</string>
+  <string name="hue_str">色调:<xliff:g id="hue_value">%1$s</xliff:g></string>
+  <string name="saturation_str">饱和度: <xliff:g id="saturation_value">%1$s</xliff:g></string>
+  <string name="contrast_str">对比度:<xliff:g id="contrast_value">%1$s</xliff:g></string>
+  <string name="intensity_str">强度:<xliff:g id="intensity_str_value">%1$s</xliff:g></string>
+  <string name="battery_style_title">Battery status style</string>
+  <string name="battery_style_icon_portrait">Icon portrait</string>
+  <string name="battery_style_icon_landscape">Icon landscape</string>
+  <string name="battery_style_circle">Circle</string>
+  <string name="battery_style_text">Text</string>
+  <string name="battery_style_hidden">Hidden</string>
+  <string name="battery_percentage_title">Battery percentage</string>
+  <string name="battery_percentage_default">Hidden (default)</string>
+  <string name="battery_percentage_text_inside">Inside the icon</string>
+  <string name="battery_percentage_text_next">Next to the icon</string>
 </resources>

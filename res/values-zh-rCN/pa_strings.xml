@@ -117,11 +117,11 @@
   <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
   <string name="personalization">个性化</string>
   <string name="reset_user_preferences_title">重置首选项</string>
-  <string name="reset_user_preferences_summary">Set PA preferences to their default values</string>
-  <string name="reset_user_preferences_disabled_summary">All PA preferences are already set to their default values</string>
-  <string name="reset_user_preferences_dialog_title">Reset preferences?</string>
-  <string name="reset_user_preferences_dialog_choice_reset">Reset now</string>
-  <string name="reset_user_preferences_dialog_choice_cancel">Cancel</string>
+  <string name="reset_user_preferences_summary">把所有PA设置恢复到默认值</string>
+  <string name="reset_user_preferences_disabled_summary">所有PA选项已经恢复设置到默认值</string>
+  <string name="reset_user_preferences_dialog_title">重置首选项？</string>
+  <string name="reset_user_preferences_dialog_choice_reset">重置</string>
+  <string name="reset_user_preferences_dialog_choice_cancel">取消</string>
   <string name="backlight_timeout_title">背光超时</string>
   <string name="backlight_timeout_unlimited">不要关闭</string>
   <string name="backlight_summary_disabled">已禁用</string>
@@ -266,14 +266,14 @@
   <string name="saturation_str">饱和度: <xliff:g id="saturation_value">%1$s</xliff:g></string>
   <string name="contrast_str">对比度:<xliff:g id="contrast_value">%1$s</xliff:g></string>
   <string name="intensity_str">强度:<xliff:g id="intensity_str_value">%1$s</xliff:g></string>
-  <string name="battery_style_title">Battery status style</string>
-  <string name="battery_style_icon_portrait">Icon portrait</string>
-  <string name="battery_style_icon_landscape">Icon landscape</string>
-  <string name="battery_style_circle">Circle</string>
-  <string name="battery_style_text">Text</string>
-  <string name="battery_style_hidden">Hidden</string>
-  <string name="battery_percentage_title">Battery percentage</string>
-  <string name="battery_percentage_default">Hidden (default)</string>
-  <string name="battery_percentage_text_inside">Inside the icon</string>
-  <string name="battery_percentage_text_next">Next to the icon</string>
+  <string name="battery_style_title">电池状态样式</string>
+  <string name="battery_style_icon_portrait">纵向图标</string>
+  <string name="battery_style_icon_landscape">卧式图标</string>
+  <string name="battery_style_circle">环形</string>
+  <string name="battery_style_text">文字</string>
+  <string name="battery_style_hidden">隐藏</string>
+  <string name="battery_percentage_title">电量百分比</string>
+  <string name="battery_percentage_default">隐藏(默认)</string>
+  <string name="battery_percentage_text_inside">在图标内</string>
+  <string name="battery_percentage_text_next">在图标旁</string>
 </resources>
